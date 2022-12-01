@@ -1,0 +1,16 @@
+{
+  "name": "webpack-esm-component-dependant",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [],
+  "author": "Jocelyn Badgley <joc@twipped.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "webpack-esm-component-root": "ZenTwipped/webpack-esm-component-root"
+  },
+  "peerDependencies": {
+    "react": ">=17"
+  }
+}
