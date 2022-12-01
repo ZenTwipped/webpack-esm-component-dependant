@@ -8,7 +8,7 @@
   "author": "Jocelyn Badgley <joc@twipped.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "webpack-esm-component-root": "@ZenTwipped/webpack-esm-component-root"
+    "@ZenTwipped/webpack-esm-component-root": "1.0.0"
   },
   "peerDependencies": {
     "react": ">=17"
