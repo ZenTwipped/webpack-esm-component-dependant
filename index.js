@@ -1,4 +1,4 @@
-import doTheThing from 'webpack-esm-component-root';
+import doTheThing from '@ZenTwipped/webpack-esm-component-root';
 
 export default function blah () {
   return doTheThing();
