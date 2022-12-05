@@ -4,3 +4,4 @@ export default function blah () {
   return doTheThing();
 }
 
+export function doSomethingElse () { }
