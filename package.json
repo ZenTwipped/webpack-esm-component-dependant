@@ -8,12 +8,16 @@
   "author": "Jocelyn Badgley <joc@twipped.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@ZenTwipped/webpack-esm-component-root": "1.0.0"
+    "@ZenTwipped/webpack-esm-component-root": "2.0.0"
   },
   "peerDependencies": {
     "react": ">=17"
   },
   "publishConfig": {
     "@ZenTwipped:registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZenTwipped/webpack-esm-component-dependant.git"
   }
 }
