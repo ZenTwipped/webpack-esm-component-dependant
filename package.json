@@ -1,6 +1,6 @@
 {
   "name": "@ZenTwipped/webpack-esm-component-dependant",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "",
   "main": "./index.cjs",
   "module": "./index.mjs",
