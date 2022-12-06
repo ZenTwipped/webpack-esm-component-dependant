@@ -2,13 +2,24 @@
   "name": "@ZenTwipped/webpack-esm-component-dependant",
   "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.cjs",
+    "webpack": "./index.mjs"
+  },
   "type": "module",
   "keywords": [],
   "author": "Jocelyn Badgley <joc@twipped.com>",
   "license": "UNLICENSED",
+  "files": [
+    "index.cjs",
+    "index.mjs",
+    "index.js"
+  ],
   "dependencies": {
-    "@ZenTwipped/webpack-esm-component-root": "2.0.0"
+    "@ZenTwipped/webpack-esm-component-root": "3.0.0"
   },
   "peerDependencies": {
     "react": ">=17"
